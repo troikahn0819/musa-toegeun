@@ -6,6 +6,7 @@ coverage/
 .env.*
 !.env.example
 .claude/
+.vercel/
 /superpowers/
 /supabase/functions/
 /supabase/migrations/

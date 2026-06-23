@@ -8,6 +8,7 @@ import { useGameAnalytics } from './analytics/useGameAnalytics';
 import { StatBar } from './components/StatBar';
 import { EndingScreen, GameOverScreen, StartScreen } from './components/Screens';
 import { ChoicePoll } from './components/ChoicePoll';
+import { CardArt } from './components/CardArt';
 import { ThemeSwitcher } from './design/ThemeSwitcher';
 import { useEffect, useRef } from 'react';
 import type { ReactNode } from 'react';
@@ -133,6 +134,7 @@ export default function App() {
             <p className="card-no"><span>CASE</span> {String(state.turn).padStart(2, '0')}</p>
             <h1>{card.title}</h1>
             <p className="description">{card.description}</p>
+            <CardArt cardId={card.id} />
             <div className="choices" aria-label="선택지">
               {card.choices.map((choice, i) => (
                 <button key={choice.id} onClick={() => choose(card.id, choice.id, state.turn)}>
