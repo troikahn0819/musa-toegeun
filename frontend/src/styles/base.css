@@ -1,0 +1,32 @@
+:root {
+  font-family: var(--font-body);
+  color: var(--ink);
+  background: var(--page-bg);
+  font-synthesis: none;
+}
+
+* { box-sizing: border-box; }
+
+html {
+  min-width: 320px;
+  background: var(--page-bg);
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  min-height: 100dvh;
+  background:
+    linear-gradient(var(--page-grid) 1px, transparent 1px),
+    radial-gradient(circle at 8% 0, var(--page-glow) 0, transparent 34%),
+    var(--page-bg);
+  background-size: 100% 24px, auto, auto;
+  color: var(--ink);
+  overscroll-behavior-y: none;
+  transition: background-color .22s ease, color .22s ease;
+}
+
+button, a { -webkit-tap-highlight-color: transparent; }
+

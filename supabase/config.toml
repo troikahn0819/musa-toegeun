@@ -1,0 +1,5 @@
+project_id = "musa-toegeun"
+
+[functions.game-analytics]
+verify_jwt = false
+
