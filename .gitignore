@@ -9,4 +9,5 @@ coverage/
 /superpowers/
 /supabase/functions/
 /supabase/migrations/
+/supabase/.temp/
 *.log
