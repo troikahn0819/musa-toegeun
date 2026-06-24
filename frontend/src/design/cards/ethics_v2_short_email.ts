@@ -1,37 +1,5 @@
 export const art = {
   viewBox: '0 0 480 270',
-  title: '내용은 거의 비어 있고 느낌표 세 개만 찍힌 독촉 메일 창',
-  body: `<rect width="480" height="270" rx="12" fill="var(--paper-deep)"/>
-<g fill="none" stroke="var(--ink)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-  <rect x="96" y="52" width="248" height="172" rx="14" fill="var(--paper)"/>
-  <path d="M96 86 h248"/>
-  <circle cx="118" cy="69" r="5" fill="var(--muted)" stroke="none"/>
-  <circle cx="136" cy="69" r="5" fill="var(--muted)" stroke="none"/>
-  <circle cx="154" cy="69" r="5" fill="var(--muted)" stroke="none"/>
-</g>
-<g stroke="var(--line)" stroke-width="3" stroke-linecap="round" opacity="0.55">
-  <path d="M120 112 h120"/>
-  <path d="M120 134 h168"/>
-  <path d="M120 156 h96"/>
-  <path d="M120 178 h140"/>
-  <path d="M120 200 h64"/>
-</g>
-<g fill="var(--accent)" stroke="none">
-  <rect x="300" y="120" width="8" height="34" rx="4"/>
-  <circle cx="304" cy="170" r="5"/>
-  <rect x="326" y="112" width="9" height="40" rx="4.5"/>
-  <circle cx="330.5" cy="168" r="5.5"/>
-  <rect x="354" y="120" width="8" height="34" rx="4"/>
-  <circle cx="358" cy="170" r="5"/>
-</g>
-<g fill="none" stroke="var(--accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-  <circle cx="358" cy="92" r="22" fill="var(--paper)"/>
-  <path d="M358 80 v12 l8 6"/>
-  <path d="M343 73 l-7 -6"/>
-  <path d="M373 73 l7 -6"/>
-</g>
-<g stroke="var(--accent)" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.7">
-  <path d="M392 132 q14 4 0 14"/>
-  <path d="M404 120 q22 12 0 30"/>
-</g>`,
+  title: '요란하게 울리는 자명종 시계 옆에 느낌표 세 개만 적힌 텅 빈 쪽지',
+  body: `<rect width="480" height="270" rx="12" fill="var(--paper-deep)"/><g fill="var(--paper)" stroke="var(--accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M118 64 a30 22 0 0 1 52 0 z"/><path d="M188 64 a30 22 0 0 1 52 0 z"/></g><g fill="none" stroke="var(--accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><circle cx="179" cy="150" r="74" fill="var(--paper)"/><circle cx="179" cy="150" r="60" fill="var(--paper-deep)" fill-opacity="0.45"/><path d="M126 219 l-16 23"/><path d="M232 219 l16 23"/><circle cx="179" cy="98" r="6" fill="var(--paper)"/></g><g fill="none" stroke="var(--ink)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M179 150 V108"/><path d="M179 150 L211 164"/><circle cx="179" cy="150" r="4" fill="var(--ink)"/></g><g fill="var(--ink)"><circle cx="179" cy="92" r="3"/><circle cx="237" cy="150" r="3"/><circle cx="179" cy="208" r="3"/><circle cx="121" cy="150" r="3"/></g><g fill="none" stroke="var(--accent)" stroke-width="3" stroke-linecap="round" opacity="0.95"><path d="M76 122 q-16 28 0 56"/><path d="M282 122 q16 28 0 56"/></g><g fill="none" stroke="var(--accent)" stroke-width="3" stroke-linecap="round" opacity="0.5"><path d="M56 106 q-26 44 0 88"/><path d="M302 106 q26 44 0 88"/></g><path d="M338 66 h100 v158 l-16 -13 -17 13 -17 -13 -16 13 -17 -13 -17 13 z" fill="var(--paper)" stroke="var(--muted)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><g fill="none" stroke="var(--muted)" stroke-width="3" stroke-linecap="round" opacity="0.45"><path d="M356 184 h66"/><path d="M356 198 h46"/></g><g stroke="var(--ink)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M364 96 v40"/><path d="M388 96 v40"/><path d="M412 96 v40"/></g><g fill="var(--ink)"><circle cx="364" cy="152" r="4"/><circle cx="388" cy="152" r="4"/><circle cx="412" cy="152" r="4"/></g>`,
 };

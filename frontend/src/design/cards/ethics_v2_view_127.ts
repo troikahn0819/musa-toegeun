@@ -1,5 +1,42 @@
 export const art = {
   viewBox: '0 0 480 270',
-  title: '사내 게시판에 올라온 홍보글과 빠르게 오르는 조회수',
-  body: `<rect width="480" height="270" rx="12" fill="var(--paper-deep)"/><g fill="none" stroke="var(--ink)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><rect x="74" y="52" width="252" height="170" rx="12" fill="var(--paper)"/><path d="M74 80 h252"/></g><g fill="var(--muted)"><circle cx="94" cy="66" r="4"/><circle cx="110" cy="66" r="4"/><circle cx="126" cy="66" r="4"/></g><g fill="none" stroke="var(--muted)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><rect x="92" y="96" width="60" height="46" rx="6" fill="var(--paper-deep)" fill-opacity="0.5"/><path d="M100 132 l14 -16 10 11 8 -8 12 13"/></g><circle cx="138" cy="108" r="5" fill="var(--warning)"/><g fill="none" stroke="var(--muted)" stroke-width="3" stroke-linecap="round"><path d="M168 102 h142"/><path d="M168 118 h142"/><path d="M168 134 h108"/><path d="M100 172 h62"/><path d="M100 190 h98"/></g><g fill="none" stroke="var(--accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><rect x="256" y="160" width="58" height="50" rx="6" fill="var(--paper)"/><path d="M270 200 v-10"/><path d="M285 200 v-22"/><path d="M300 200 v-34"/><path d="M264 152 l21 -16 21 16"/></g><g fill="none" stroke="var(--ink)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M348 50 h-12 v12"/><path d="M404 50 h12 v12"/><path d="M348 100 h-12 v-12"/><path d="M404 100 h12 v-12"/><path d="M352 64 h44 M352 76 h44 M352 88 h28"/></g><g fill="none" stroke="var(--success)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M404 118 l8 -8 6 5 9 -11"/></g><g fill="none" stroke="var(--ink)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M354 200 q24 -22 48 0 q-24 22 -48 0 z" fill="var(--paper)"/><circle cx="378" cy="200" r="7" fill="none"/><circle cx="378" cy="200" r="2.5" fill="var(--ink)"/></g><g fill="none" stroke="var(--ink)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.55"><path d="M406 224 q15 -14 30 0 q-15 14 -30 0 z"/><circle cx="421" cy="224" r="2.5" fill="var(--ink)"/></g>`,
+  title: '조회수가 치솟는 막대그래프와 지켜보는 눈들, 뒤에 핀으로 꽂힌 홍보 전단',
+  body: `<rect width="480" height="270" rx="12" fill="var(--paper-deep)"/>
+<g fill="none" stroke="var(--line)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.5">
+  <rect x="312" y="40" width="112" height="120" rx="8" fill="var(--paper)"/>
+  <circle cx="368" cy="54" r="4" fill="var(--muted)" stroke="none"/>
+  <path d="M330 82 h78"/>
+  <path d="M330 100 h78"/>
+  <path d="M330 118 h50"/>
+  <path d="M330 136 h64"/>
+</g>
+<g fill="none" stroke="var(--ink)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M60 206 h216"/>
+  <path d="M76 206 v-34 h32 v34"/>
+  <path d="M118 206 v-64 h32 v64"/>
+  <path d="M160 206 v-96 h32 v96"/>
+</g>
+<g fill="var(--accent)" stroke="none">
+  <path d="M202 206 v-138 h32 v138 z"/>
+</g>
+<g fill="none" stroke="var(--accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M90 150 L132 118 L174 92 L226 54"/>
+  <path d="M204 52 h26 v26"/>
+</g>
+<g fill="none" stroke="var(--ink)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M256 196 q24 -24 48 0 q-24 24 -48 0 z"/>
+  <circle cx="280" cy="196" r="6" fill="var(--ink)" stroke="none"/>
+  <path d="M320 196 q24 -24 48 0 q-24 24 -48 0 z"/>
+  <circle cx="344" cy="196" r="6" fill="var(--ink)" stroke="none"/>
+</g>
+<g fill="none" stroke="var(--accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M384 196 q24 -24 48 0 q-24 24 -48 0 z"/>
+  <circle cx="408" cy="196" r="7" fill="var(--accent)" stroke="none"/>
+</g>
+<g fill="none" stroke="var(--warning)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 6">
+  <path d="M266 170 h-14 v18"/>
+  <path d="M422 170 h14 v18"/>
+  <path d="M266 226 h-14 v-18"/>
+  <path d="M422 226 h14 v-18"/>
+</g>`,
 };

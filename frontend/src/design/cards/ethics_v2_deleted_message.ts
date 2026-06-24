@@ -1,5 +1,30 @@
 export const art = {
   viewBox: '0 0 480 270',
-  title: '부서 단톡방 화면, 여러 말풍선 사이로 점선으로 사라지는 삭제된 메시지와 그것을 지켜본 눈',
-  body: `<rect width="480" height="270" rx="12" fill="var(--paper-deep)"/><g fill="none" stroke="var(--ink)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><rect x="92" y="34" width="232" height="202" rx="16" fill="var(--paper)"/><line x1="92" y1="62" x2="324" y2="62"/><circle cx="110" cy="48" r="5" fill="var(--muted)" stroke="none"/><circle cx="124" cy="48" r="5" fill="var(--muted)" stroke="none"/><circle cx="138" cy="48" r="5" fill="var(--muted)" stroke="none"/></g><g fill="none" stroke="var(--muted)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M118 78 h74 a8 8 0 0 1 8 8 v16 a8 8 0 0 1 -8 8 h-66 l-11 9 v-9 a8 8 0 0 1 -8 -8 v-16 a8 8 0 0 1 8 -8 z" fill="var(--paper)"/><line x1="124" y1="90" x2="184" y2="90" stroke-width="2"/><line x1="124" y1="100" x2="168" y2="100" stroke-width="2"/><path d="M298 122 h-74 a8 8 0 0 0 -8 8 v16 a8 8 0 0 0 8 8 h66 l11 9 v-9 a8 8 0 0 0 8 -8 v-16 a8 8 0 0 0 -8 -8 z" fill="var(--attendance)" fill-opacity="0.14" stroke="var(--attendance)"/><line x1="230" y1="134" x2="290" y2="134" stroke="var(--attendance)" stroke-width="2"/><line x1="230" y1="144" x2="276" y2="144" stroke="var(--attendance)" stroke-width="2"/></g><g fill="none" stroke="var(--accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 7" opacity="0.85"><path d="M118 166 h94 a8 8 0 0 1 8 8 v18 a8 8 0 0 1 -8 8 h-86 l-11 9 v-9 a8 8 0 0 1 -8 -8 v-18 a8 8 0 0 1 8 -8 z" fill="var(--accent)" fill-opacity="0.08"/></g><g fill="none" stroke="var(--accent)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.55" stroke-dasharray="5 6"><line x1="128" y1="180" x2="200" y2="180"/><line x1="128" y1="191" x2="180" y2="191"/></g><g fill="none" stroke="var(--ink)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M348 168 q40 -34 80 0 q-40 34 -80 0 z" fill="var(--paper)"/><circle cx="388" cy="168" r="14" fill="var(--paper)"/><circle cx="388" cy="168" r="6" fill="var(--accent)" stroke="none"/></g><g stroke="var(--warning)" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.9"><path d="M404 130 q14 -10 18 6"/><path d="M412 114 q20 -14 26 4"/></g>`,
+  title: '종이 위에 자유롭게 떠 있는 세 개의 채팅 말풍선, 하나는 점선으로 흩어지며 사라지고 옆에서 지켜보는 눈 하나',
+  body: `<rect width="480" height="270" rx="12" fill="var(--paper-deep)"/>
+<g fill="none" stroke="var(--ink)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M82 56 h130 a18 18 0 0 1 18 18 v34 a18 18 0 0 1 -18 18 h-88 l-24 22 v-22 h-18 a18 18 0 0 1 -18 -18 v-34 a18 18 0 0 1 18 -18 z" fill="var(--ink)" fill-opacity="0.08"/>
+  <path d="M94 86 h84"/>
+  <path d="M94 102 h54"/>
+</g>
+<g fill="none" stroke="var(--ink)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M272 140 h122 a18 18 0 0 1 18 18 v30 a18 18 0 0 1 -18 18 h-16 v22 l-26 -22 h-82 a18 18 0 0 1 -18 -18 v-30 a18 18 0 0 1 18 -18 z" fill="var(--ink)" fill-opacity="0.08"/>
+  <path d="M290 166 h80"/>
+  <path d="M290 182 h50"/>
+</g>
+<g fill="none" stroke="var(--accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 9" stroke-opacity="0.85">
+  <path d="M138 146 h120 a18 18 0 0 1 18 18 v32 a18 18 0 0 1 -18 18 h-66 l-24 20 v-20 h-30 a18 18 0 0 1 -18 -18 v-32 a18 18 0 0 1 18 -18 z" fill="var(--accent)" fill-opacity="0.1"/>
+</g>
+<g fill="none" stroke="var(--accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.7">
+  <path d="M282 146 l14 -12"/>
+  <path d="M296 174 l18 -6"/>
+  <path d="M290 204 l16 12"/>
+  <path d="M124 174 l-14 -10"/>
+  <path d="M132 208 l-12 12"/>
+</g>
+<g fill="none" stroke="var(--accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M300 98 q26 -24 52 0 q-26 24 -52 0 z" fill="var(--accent)" fill-opacity="0.1"/>
+  <circle cx="326" cy="98" r="11" fill="var(--paper)"/>
+  <circle cx="326" cy="98" r="5" fill="var(--accent)"/>
+</g>`,
 };

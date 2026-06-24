@@ -1,5 +1,41 @@
 export const art = {
   viewBox: '0 0 480 270',
-  title: '들이밀어진 손 위 스마트폰, 화면 속 옛 답변 말풍선과 빨갛게 표시된 날짜',
-  body: `<rect width="480" height="270" rx="12" fill="var(--paper-deep)"/><g fill="none" stroke="var(--ink)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><rect x="168" y="40" width="144" height="200" rx="20" fill="var(--paper)"/><line x1="168" y1="66" x2="312" y2="66"/><line x1="168" y1="214" x2="312" y2="214"/><line x1="222" y1="53" x2="258" y2="53" stroke="var(--muted)"/><circle cx="240" cy="227" r="7" fill="none" stroke="var(--muted)"/><path d="M188 96 h70 a8 8 0 0 1 8 8 v18 a8 8 0 0 1 -8 8 h-58 l-12 10 v-10 a8 8 0 0 1 -8 -8 v-18 a8 8 0 0 1 8 -8 z" fill="var(--paper)" stroke="var(--muted)"/><line x1="198" y1="110" x2="250" y2="110" stroke="var(--muted)" stroke-width="2"/><line x1="198" y1="120" x2="238" y2="120" stroke="var(--muted)" stroke-width="2"/></g><g fill="none" stroke="var(--accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><rect x="190" y="158" width="70" height="46" rx="8" fill="var(--accent)" fill-opacity="0.12"/><line x1="190" y1="172" x2="260" y2="172"/><line x1="204" y1="152" x2="204" y2="164"/><line x1="246" y1="152" x2="246" y2="164"/><circle cx="207" cy="186" r="3.5" fill="var(--accent)"/><circle cx="225" cy="186" r="3.5" fill="var(--accent)"/><circle cx="243" cy="186" r="3.5" fill="none"/></g><g fill="none" stroke="var(--ink)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M362 238 c-6 -28 -2 -52 6 -70 4 -9 -2 -16 -10 -12 -10 5 -16 16 -20 28" fill="var(--paper)"/><path d="M338 212 c-4 -10 -10 -18 -18 -22 -7 -3 -12 4 -8 11 5 9 10 16 12 24" fill="var(--paper)"/><path d="M332 208 c-8 -7 -18 -11 -27 -10 -7 1 -8 9 -1 12 9 4 17 9 22 16" fill="var(--paper)"/><path d="M334 214 c-9 -3 -19 -2 -27 3 -6 4 -3 11 4 11 9 0 18 2 25 7" fill="var(--paper)"/><path d="M368 238 h-44" /></g><g stroke="var(--warning)" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.9"><path d="M330 78 q16 -12 22 4"/><path d="M338 60 q22 -16 30 2"/></g>`,
+  title: '귀퉁이가 접힌 인쇄된 캡처 사진 속 지난 대화 말풍선과 항의 말풍선, 옆에는 날짜가 동그라미로 표시된 달력',
+  body: `<rect width="480" height="270" rx="12" fill="var(--paper-deep)"/>
+<g transform="rotate(-4 161 127)">
+  <g fill="none" stroke="var(--ink)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M70 64 h156 l26 26 v92 a8 8 0 0 1 -8 8 H78 a8 8 0 0 1 -8 -8 V64 z" fill="var(--paper)"/>
+    <path d="M226 64 v26 h26 z" fill="var(--ink)" fill-opacity="0.12"/>
+    <path d="M226 64 v26 h26"/>
+  </g>
+  <g fill="none" stroke="var(--muted)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M92 104 h70 a12 12 0 0 1 12 12 v18 a12 12 0 0 1 -12 12 h-50 l-16 16 v-16 h-4 a12 12 0 0 1 -12 -12 v-18 a12 12 0 0 1 12 -12 z" fill="var(--muted)" fill-opacity="0.1"/>
+    <path d="M104 120 h46" stroke-width="2"/>
+    <path d="M104 132 h30" stroke-width="2"/>
+  </g>
+  <g fill="none" stroke="var(--ink)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.5">
+    <path d="M92 168 h120"/>
+    <path d="M92 178 h76"/>
+  </g>
+</g>
+<g fill="none" stroke="var(--ink)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="318" y="88" width="98" height="100" rx="12" fill="var(--paper)"/>
+  <path d="M318 118 h98"/>
+  <path d="M342 76 v18"/>
+  <path d="M392 76 v18"/>
+</g>
+<g fill="none" stroke="var(--muted)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M332 138 h12"/>
+  <path d="M358 138 h12"/>
+  <path d="M384 138 h12"/>
+  <path d="M332 162 h12"/>
+  <path d="M384 162 h12"/>
+</g>
+<circle cx="367" cy="162" r="16" fill="none" stroke="var(--accent)" stroke-width="4"/>
+<g fill="none" stroke="var(--warning)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M210 200 h78 a14 14 0 0 0 14 -14 v-32 a14 14 0 0 0 -14 -14 h-78 a14 14 0 0 0 -14 14 v32 a14 14 0 0 0 14 14 z" fill="var(--warning)" fill-opacity="0.12"/>
+  <path d="M234 200 l-12 22 24 -22 z" fill="var(--warning)" fill-opacity="0.12"/>
+  <path d="M249 152 v20"/>
+</g>
+<circle cx="249" cy="184" r="2.5" fill="var(--warning)"/>`,
 };
